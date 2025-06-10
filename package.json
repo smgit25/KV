@@ -1,0 +1,13 @@
+{
+  "name": "kv-worker-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy:dev": "wrangler deploy --env dev",
+    "deploy:qa": "wrangler deploy --env qa"
+  },
+  "devDependencies": {
+    "wrangler": "^3.57.0"
+  }
+}

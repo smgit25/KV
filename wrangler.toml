@@ -1,0 +1,11 @@
+[env.dev]
+name = "kv-worker-poc-dev"
+[[env.dev.kv_namespaces]]
+binding = "MY_KV_NAMESPACE"
+id = "ffe8718218ce425687a3b562247b1ea4"
+
+[env.qa]
+name = "kv-worker-poc-qa"
+[[env.qa.kv_namespaces]]
+binding = "MY_KV_NAMESPACE"
+id = "b148ae0be9494e98a85793bc4b21c098"
