@@ -1,3 +1,7 @@
+name = "kv-worker-poc"
+main = "index.js"
+compatibility_date = "2025-06-10"
+
 [env.dev]
 name = "kv-worker-poc-dev"
 [[env.dev.kv_namespaces]]
